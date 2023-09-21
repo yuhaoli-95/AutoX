@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+# coding=utf-8
+'''
+Author       : Li Yuhao
+Date         : 2023-09-21 10:51:01
+LastEditTime : 2023-09-21 13:39:56
+LastEditors  : your name
+Description  : 
+FilePath     : \\AutoX\\setup.py
+'''
 # -*- coding: utf-8 -*-
 from distutils.core import setup
 from setuptools import find_packages
@@ -13,7 +23,7 @@ setup(name="automl-x",
             'lightgbm==2.1.0',
             'xgboost==1.5.0',
             # 'pytorch-tabnet',
-            'torch==1.10.0',
+            # 'torch==1.10.0',
             'numpy==1.21.4',
             'pandas==1.3.5',
             'scikit-learn==0.24.0',
